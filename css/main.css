@@ -640,7 +640,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-	color: #cc005f;
+	color: #17d9e7;
 	border-bottom: 1px solid #17d9e7;
 }
 label,
@@ -1435,7 +1435,7 @@ header .logo a {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #cc005f;
+	color: #17d9e7;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -1483,7 +1483,7 @@ header .logo a {
 }
 .intro-content .button:hover,
 .intro-content .button:focus {
-	border-color: #cc005f;
+	border-color: #17d9e7;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1517,7 +1517,7 @@ header .logo a {
 }
 .intro-social li a:hover,
 .intro-social li a:focus {
-	color: #cc005f;
+	color: #17d9e7;
 }
 
 /**
@@ -2059,7 +2059,7 @@ header .logo a {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
 .popup-modal .link-box a:hover {
-	background: #cc005f;
+	background: #17d9e7;
 	border: none;
 }
 @media only screen and (max-width: 600px) {
@@ -2469,7 +2469,7 @@ header .logo a {
 }
 #contact button.submitform:hover,
 #contact button.submitform:focus {
-	background: #cc005f;
+	background: #17d9e7;
 }
 #message-warning,
 #message-success {
@@ -2688,7 +2688,7 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
+	background: #17d9e7;
 	color: #ffffff;
 	text-align: center;
 	text-transform: uppercase;
