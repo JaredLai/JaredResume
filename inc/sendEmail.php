@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'user@website.com';
+$siteOwnersEmail = 'jl.jared.jl@gmail.com';
 
 
 if($_POST) {
@@ -47,7 +47,9 @@ if($_POST) {
    if (!$error) {
 
       ini_set("sendmail_from", $siteOwnersEmail); // for windows server
+	  echo "here";
       $mail = mail($siteOwnersEmail, $subject, $message, $headers);
+		echo "there";
 
 		if ($mail) { echo "OK"; }
       else { echo "Something went wrong. Please try again."; }
